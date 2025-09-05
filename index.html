@@ -1,8 +1,84 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="Author" content="Dillan Torres Flor">
+        <meta name="Description" content="This web site content a brief information about me.">
+        <title>Nameless Orion</title>
+        
+        <!--------------Google Font here------------------->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+        
+        <!--------------Styles Sheets here------------------->
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/home-page.css">
+        <link rel="stylesheet" href="styles/home-page-large.css">
+        
+        <!---------------Scripts here------------------>
+        <script src="scripts/home-page.js" defer></script>
     </head>
     <body>
-        <h1>hello world</h1>
+        <header class="header-container">
+            <img src="images/user.svg" alt="site logo" width="250" height="250">
+            <span>Nameless Orion</span>
+            <button id="nav-button" class="hamburger"></button>
+        </header>
+        <nav id="nav-bar" class="navigation">
+            <ul>
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="#">Chamber Project</a></li>
+                <li><a href="#">Final Project</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2>Home</h2>
+            <div class="main-container">
+                <section class="profile">
+                    <h2>Student Photo</h2>
+                    <div class="photo-box">
+                        <img src="images/profile.jpg" alt="It's me" width="150" height="150">
+                    </div>
+                </section>
+                <section class="about">
+                    <h2>About Me</h2>
+                    <p>My name is Dillan S. Torres, and I was born in the beautiful country of Ecuador. 
+                            I am currently pursuing a degree in Software Development at BYU-Idaho, where I am gaining valuable skills in programming, 
+                            web development, and problem-solving.
+
+                            I have a deep passion for learning and personal growth. In my free time, 
+                            I enjoy reading books—especially those that expand my knowledge in technology
+                            My goal is to become a well-rounded software developer who can create meaningful and innovative solutions that make a positive impact in the world.
+                    </p>
+                </section>
+                <section class="courses">
+                    <h2>Web Certificate Courses</h2>
+
+                    <div class="course-buttons">
+                        <button id="all">All</button>
+                         <button id="cse">CSE</button>
+                        <button id="wdd">WDD</button>
+                    </div>
+                        <p id="total-credits" class="credits">
+                            The total number of course listed below is <span id="course-count">0</span>
+                        </p>
+
+                    <div id="course-list" class="course-list"></div>
+                </section>
+            </div>
+        </main>
+        <footer>
+            <div class="social">
+                <a href="https://teams.live.com/v2" target="_blank"><img src="images/microsoft-teams.svg" alt="Microsoft teams" width="16" height="16"></a>
+                <a href="https://www.linkedin.com/in/samuel-torres-11bb27339/" target="_blank"><img src="images/linkedin.svg" alt="Linkedin" width="16" height="16"></a>
+                <a href="https://github.com/AcXirus" target="_blank"><img src="images/github.svg" alt="Github" width="16" height="16"></a>
+                <a href="https://www.facebook.com/DellSamTorr/" target="_blank"><img src="images/facebook.svg" alt="Facebook" width="16" height="16"></a>
+            </div>
+            <p id="copyright-year"></p>
+            <p class="last"><strong id="lastModified"></strong></p>
+        </footer>
     </body>
 </html>
+

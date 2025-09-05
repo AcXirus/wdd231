@@ -1,0 +1,221 @@
+/*--------------- site wide ---------------------*/
+*{
+    font-family: "Josefin Sans", sans-serif;
+    box-sizing: border-box;
+}
+
+/*--------------- header ---------------------*/
+header {
+  display: grid;
+  grid-template-columns: 24px auto 44px;
+  padding: 5px 0 5px 10px;
+  border-bottom: solid 1px #ddd;
+  column-gap: 8px;
+  align-items: end;
+}
+
+header img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+header span {
+    font-size: 1.1rem;
+    color: #3b5666ff;
+}
+
+/*--------------------- hamburger and navegation -------------------------*/
+
+.hamburger{
+    background: none;
+    border: none;
+    color: #3b5666ff;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.3rem;
+}
+
+.hamburger::before {
+  content: "\2630";
+}
+.hamburger.show::before {
+  content: "\00D7";
+}
+
+.navigation {
+  display: none;
+}
+
+.navigation.show {
+  display: block;
+}
+
+.navigation ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation a {
+    display: block;
+    padding: .8rem 10px;
+    color: #3b5666ff;
+    text-decoration: none;
+    border: solid 1px #ddd;
+}
+
+.navigation li.active {
+    background-color: #eee;
+}
+
+.navigation a:hover {
+    background-color: #575050cc;
+    color: #ffffff;
+}
+
+/*--------------------- Main here ----------------------------*/
+main h2 {
+    margin: 5px;
+    padding: 5px;
+    text-align: left;
+}
+
+.main-container {
+    padding: 20px;
+    background-color: #fff;
+}
+
+.main-container h2 {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+/*--------------- Sections boxes with headings ------------------*/
+.about, .profile, .courses {
+    margin-bottom: 20px;
+}
+
+.about h2, .profile h2, .courses h2 {
+    background-color: #222;
+    color: white;
+    padding: 8px;
+    font-weight: 600;
+    text-align: center;
+}
+
+/*-------------- About text box -------------------*/
+.about p {
+    background-color: #ccc;
+    padding: 15px;
+    color: #222;
+    line-height: 1.4;
+}
+
+/*-------------- Profile photo box -----------------*/
+.photo-box {
+    background-color: #ccc;
+    width: auto;
+    height: 180px;
+    margin: 0 auto;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.photo-box img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+/*------------- Course buttons -------------------*/
+.course-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.course-buttons button {
+    background-color: #ccc;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    min-width: 60px;
+}
+
+.course-buttons button:hover {
+    background-color: #bbb;
+}
+
+.course-card {
+  position: relative;
+  padding: 15px;
+  background-color: #3b5666ff;
+  border-radius: 10px;
+  margin: 5px 0;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.course-card.completed {
+  background-color: #5c9e5c;
+  color: rgb(0, 0, 0);
+}
+
+.course-card.completed::before {
+  content: "✓ ";
+  font-weight: bold;
+  color: green;
+}
+
+.course-details {
+  display: none;
+  font-weight: normal;
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #ffffff;
+}
+
+
+.course-card:hover .course-details {
+  display: block;
+}
+
+/*------------- footer here --------------------*/
+footer{
+    background-color: #eee;
+    padding: 1rem 10px; 
+    text-align: center;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    column-gap: 8px;
+}
+
+.social a {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+    border: #ccc 1px solid;
+    border-radius: 22px;
+}
+
+.social img {
+    width: 22px;
+    height: 22px;
+}
+
+.social a:hover {
+    background-color: #ddd;
+}
