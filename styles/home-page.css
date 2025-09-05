@@ -156,7 +156,7 @@ main h2 {
 .course-card {
   position: relative;
   padding: 15px;
-  background-color: #3b5666ff;
+  background-color: rgba(59, 86, 102, 0.514);
   border-radius: 10px;
   margin: 5px 0;
   cursor: pointer;
