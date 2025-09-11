@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="scripts/chamber_directory.js" defer></script>
+  <link rel="stylesheet" href="styles/chamber_directory.css">
+  <link rel="stylesheet" href="styles/chamber_directory_large.css">
+  
+  <!-- Title & Basic Meta -->
+  <title>Nobless Chamber of Commerce - Directory</title>
+  <meta name="description" content="Official business directory of the Nobless Chamber of Commerce. Discover companies by sector, membership, and services.">
+  <meta name="author" content="Nobless Chamber of Commerce">
+
+  <!-- Favicon -->
+  <link rel="icon" href="images/icon.ico">
+
+  <!-- Open Graph (Facebook) -->
+  <meta property="og:title" content="Nobless Chamber of Commerce - Directory">
+  <meta property="og:description" content="Explore Ecuador's top companies, find services, and connect with Gold, Silver, and Member level businesses.">
+  <meta property="og:image" content="https://yourdomain.com/images/og-image.png">
+  <meta property="og:url" content="https://yourdomain.com/directory.html">
+  <meta property="og:type" content="website">
+</head>
+<body>
+  <header class="header-container">
+    <img class="container_img" src="images/logo.jpeg" height="250" width="250">
+    <h1>Business Directory</h1>
+    <button id="nav-button" class="hamburger" aria-label="Toggle navigation menu"></button>
+  </header>
+      <nav id="nav-bar" class="navigation">
+        <ul>
+            <li.active><a href="#">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+        </ul>
+    </nav>
+  <main>
+    <div class="view-toggle">
+        <button id="gridView">Grid View</button>
+      <button id="listView">List View</button>
+    </div>
+    <section id="directory" class="grid"></section>
+  </main>
+
+  <footer>
+    <p id="copyright-year"></p>
+    <p class="last"><strong id="lastModified"></strong></p>
+  </footer>
+</body>
+</html>

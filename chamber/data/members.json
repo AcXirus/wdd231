@@ -1,0 +1,66 @@
+{
+ "members": [
+    {
+      "name": "QuitoTech",
+      "address": "Av. Amazonas N35-210, Quito, Ecuador",
+      "phone": "+593 2 2456789",
+      "url": "https://quitotech.ec",
+      "image": "quitotech.png",
+      "membership": 3,
+      "founded": 2010
+    },
+    {
+      "name": "Andes Market",
+      "address": "Calle Chile E4-123, Quito, Ecuador",
+      "phone": "+593 2 2223344",
+      "url": "https://andesmarket.ec",
+      "image": "andesmarket.png",
+      "membership": 2,
+      "founded": 2005
+    },
+    {
+      "name": "Sierra Services",
+      "address": "Av. Colón 1123, Quito, Ecuador",
+      "phone": "+593 2 2567890",
+      "url": "https://sierraservices.ec",
+      "image": "sierraservices.png",
+      "membership": 1,
+      "founded": 2015
+    },
+    {
+      "name": "Pacha Manufacturing",
+      "address": "Av. Eloy Alfaro 303, Quito, Ecuador",
+      "phone": "+593 2 2334455",
+      "url": "https://pachamfg.ec",
+      "image": "pacha.png",
+      "membership": 3,
+      "founded": 1998
+    },
+    {
+      "name": "Amazonía Eco Tours",
+      "address": "Av. La Prensa 150, Quito, Ecuador",
+      "phone": "+593 2 2789456",
+      "url": "https://amazoniaecotours.ec",
+      "image": "amazonia.png",
+      "membership": 2,
+      "founded": 2012
+    },
+    {
+      "name": "Kawsay Commerce",
+      "address": "Av. República 432, Quito, Ecuador",
+      "phone": "+593 2 2678901",
+      "url": "https://kawsaycommerce.ec",
+      "image": "kawsay.png",
+      "membership": 1,
+      "founded": 2018
+    },
+    {
+      "name": "Inca Gold Finance",
+      "address": "Av. Naciones Unidas 800, Quito, Ecuador",
+      "phone": "+593 2 2991122",
+      "url": "https://incagoldfinance.ec",
+      "image": "incagold.png",
+      "membership": 3,
+      "founded": 2000
+    }
+]}
