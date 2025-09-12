@@ -190,14 +190,14 @@ nav.navigation a:hover {
 
 .footer {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   background-color: #F8F9FA;
   color: #212529;
   padding: 20px;
   font-family: 'Roboto', 'Open Sans', sans-serif;
-  text-align: left;
+  text-align: center;
   border-top: 2px solid #1B4965;
 }
 
@@ -216,6 +216,9 @@ nav.navigation a:hover {
   display: flex;
   gap: 15px;
   justify-content: center;
+  text-align: center;
+  margin-top: 1rem;
+
 }
 
 .footer-center img {
@@ -231,7 +234,8 @@ nav.navigation a:hover {
 }
 
 .footer-right {
-  text-align: right;
+  text-align: center;
   font-size: 0.9rem;
   line-height: 1.4;
+  margin-top: 1rem;
 }
