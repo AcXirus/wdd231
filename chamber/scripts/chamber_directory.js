@@ -50,7 +50,7 @@ async function init() {
 
   const currentYear = new Date().getFullYear();
   document.getElementById("copyright-year").textContent =
-    `© ${currentYear} || Dillan Torres || Ecuador`;
+    `© ${currentYear} ||  Nobless Chamber of Commerce`;
 
   const lastModif = new Date(document.lastModified);
   document.getElementById("lastModified").textContent =
