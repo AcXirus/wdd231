@@ -24,4 +24,15 @@
     .list-item img {
         margin: 0 0 0.5rem 0;
     }
+
+    .footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-left,
+    .footer-right {
+        text-align: center;
+        margin: 10px 0;
+    }
 }

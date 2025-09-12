@@ -22,7 +22,7 @@ header.header-container {
 }
 
 header.header-container img.container_img {
-    width: 50px;
+    width: 80px;
     height: auto;
     border-radius: 5px;
 }
@@ -186,4 +186,52 @@ nav.navigation a:hover {
     padding: 0.5rem;
     flex: 1;
     text-align: left;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #F8F9FA;
+  color: #212529;
+  padding: 20px;
+  font-family: 'Roboto', 'Open Sans', sans-serif;
+  text-align: left;
+  border-top: 2px solid #1B4965;
+}
+
+.footer-left, 
+.footer-right {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer-left p {
+  color: #1B4965;
+  margin-bottom: 5px;
+}
+
+.footer-center {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.footer-center img {
+  width: 40px;
+  height: 40px;
+  filter: invert(20%) sepia(90%) saturate(500%) hue-rotate(200deg) brightness(90%);
+  transition: transform 0.2s;
+}
+
+.footer-center img:hover {
+  transform: scale(1.2);
+  filter: invert(60%) sepia(90%) saturate(500%) hue-rotate(20deg) brightness(95%);
+}
+
+.footer-right {
+  text-align: right;
+  font-size: 0.9rem;
+  line-height: 1.4;
 }
